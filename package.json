@@ -1,0 +1,26 @@
+{
+  "name": "docugen-ai",
+  "version": "1.0.0",
+  "description": "AI-powered document generation platform",
+  "private": true,
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:frontend",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && python run_with_logs.py",
+    "build": "cd frontend && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/docugen-ai.git"
+  },
+  "keywords": [
+    "ai",
+    "document-generation",
+    "powerpoint",
+    "word",
+    "openai"
+  ],
+  "author": "",
+  "license": "MIT"
+}
